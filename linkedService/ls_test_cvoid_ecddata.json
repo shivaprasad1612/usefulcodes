@@ -1,0 +1,14 @@
+{
+	"name": "ls_test_cvoid_ecddata",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "test",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com ",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
